@@ -26,7 +26,7 @@ const calculatorUserInput = function(error,promptInput){
   console.log('num1 :' + promptInput.num1);
   console.log('num2 :' + promptInput.num2);
   console.log('operation:' + promptInput.operation);
-  console.log(js_calculator(promptInput));
+  console.log(promptInput.num1 + " "+promptInput.operation+" "+promptInput.num2+" = "+ js_calculator(promptInput));
 }
 
 
