@@ -30,10 +30,10 @@ const calculatorUserInput = function(error,promptInput){
 }
 
 
+
 console.log("WELCOME! Please enter num1, num2, and operations\nExample input:\n========== \nadd,+\nsubtract,-\nmultiply,*\ndivide,/\n========== ");
 prompt.start();
 prompt.get(schema, calculatorUserInput);
-
 
 
 //js_calculator function
